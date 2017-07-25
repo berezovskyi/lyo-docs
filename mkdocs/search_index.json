@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Eclipse Lyo\n\n\n\n\nFrom https://projects.eclipse.org/projects/technology.lyo\n\n\n\n\nThe Eclipse Lyo project is focused on providing an SDK to enable adoption of OSLC specifications. \nOSLC\n (Open Services for Lifecycle Collaboration) is an open community dedicated to reducing barriers for lifecycle tool integration. The community authors specifications for exposing lifecycle artifacts through uniform (REST) interfaces and relying on Internet and Linked Data standards.\n\n\nOSLC's scope started with Application Lifecycle Management (ALM) and is expanding to include integrations across Product Lifecycle Management (PLM) and IT Service Management (ISM/DevOps), Lyo is designed to be a companion to the continuing specification efforts of the OSLC community. Its main purpose is to expand adoption of OSLC specifications and to enable the Eclipse community to easily build OSLC compliant tools.\n\n\nGetting started\n\n\nYour POM file must refer to Lyo repositories:\n\n\n<repositories>\n    <repository>\n        <id>lyo-releases</id>\n        <name>Eclipse Lyo Releases</name>\n        <url>https://repo.eclipse.org/content/repositories/lyo-releases/</url>\n        <snapshots>\n            <enabled>false</enabled>\n        </snapshots>\n    </repository>\n    <repository>\n        <id>lyo-snapshots</id>\n        <name>Eclipse Lyo Snapshots</name>\n        <url>https://repo.eclipse.org/content/repositories/lyo-snapshots/</url>\n        <releases>\n            <enabled>false</enabled>\n        </releases>\n    </repository>\n</repositories>\n\n\n\n\nAdd the following dependencies to get the Lyo client (\njavadoc\n) support:\n\n\n<dependency>\n    <groupId>org.eclipse.lyo.clients</groupId>\n    <artifactId>oslc-java-client</artifactId>\n    <version>2.1.2</version>\n</dependency>",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-eclipse-lyo",
+            "text": "From https://projects.eclipse.org/projects/technology.lyo   The Eclipse Lyo project is focused on providing an SDK to enable adoption of OSLC specifications.  OSLC  (Open Services for Lifecycle Collaboration) is an open community dedicated to reducing barriers for lifecycle tool integration. The community authors specifications for exposing lifecycle artifacts through uniform (REST) interfaces and relying on Internet and Linked Data standards.  OSLC's scope started with Application Lifecycle Management (ALM) and is expanding to include integrations across Product Lifecycle Management (PLM) and IT Service Management (ISM/DevOps), Lyo is designed to be a companion to the continuing specification efforts of the OSLC community. Its main purpose is to expand adoption of OSLC specifications and to enable the Eclipse community to easily build OSLC compliant tools.",
+            "title": "Welcome to Eclipse Lyo"
+        },
+        {
+            "location": "/#getting-started",
+            "text": "Your POM file must refer to Lyo repositories:  <repositories>\n    <repository>\n        <id>lyo-releases</id>\n        <name>Eclipse Lyo Releases</name>\n        <url>https://repo.eclipse.org/content/repositories/lyo-releases/</url>\n        <snapshots>\n            <enabled>false</enabled>\n        </snapshots>\n    </repository>\n    <repository>\n        <id>lyo-snapshots</id>\n        <name>Eclipse Lyo Snapshots</name>\n        <url>https://repo.eclipse.org/content/repositories/lyo-snapshots/</url>\n        <releases>\n            <enabled>false</enabled>\n        </releases>\n    </repository>\n</repositories>  Add the following dependencies to get the Lyo client ( javadoc ) support:  <dependency>\n    <groupId>org.eclipse.lyo.clients</groupId>\n    <artifactId>oslc-java-client</artifactId>\n    <version>2.1.2</version>\n</dependency>",
+            "title": "Getting started"
+        }
+    ]
+}
